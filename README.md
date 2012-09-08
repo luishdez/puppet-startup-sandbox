@@ -6,5 +6,3 @@
 # How to run manually
 
     puppet apply manifests/node.dns.pp --modulepath=modules
-
-    
