@@ -3,7 +3,7 @@
 #
 class basic {
   $basicPackages = [
-      "git", "ntp", "PackageKit-cron", "vim"
+      "git", "ntp", "PackageKit-cron", "vim-enhanced"
   ]
 
   package { $basicPackages: 
