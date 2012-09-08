@@ -1,7 +1,10 @@
 
-## Rules Manifests for service modules.
+# Setup basics for CentOS
 
-- A module for a service will always have setup.pp and conf.pp
-- A module has to allow to define all your config files completly.
-- A module has to come with the default setup and this can be override.
-- All modules have to follow the same setup structure.
+    curl -O https://raw.github.com/gist/3652513/centos.setup.basics.sh && sh centos.setup.basics.sh
+
+# How to run manually
+
+    puppet apply manifests/node.dns.pp --modulepath=modules
+
+    

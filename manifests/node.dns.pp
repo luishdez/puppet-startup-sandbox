@@ -3,8 +3,8 @@
 #
 node 'default' {
 
-  include repositories
-  include basic
+  include "common.repositories"
+  include "common.basic"
   
   bind::setup {'bind_setup':
     firewall => 'iptables'
