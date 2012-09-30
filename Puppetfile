@@ -11,3 +11,9 @@ mod 'bind',
 
 mod 'webmin',
     :git => 'git://github.com/aggressivex/puppet-webmin.git'
+
+mod 'java',
+    :git => 'git://github.com/aggressivex/puppet-java.git'
+
+mod 'atlassian',
+    :git => 'git://github.com/aggressivex/puppet-atlassian.git'
